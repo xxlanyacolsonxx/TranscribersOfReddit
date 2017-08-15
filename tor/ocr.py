@@ -1,23 +1,3 @@
-import logging
-import os
-import sys
-import time
-import urllib
-from tesserocr import PyTessBaseAPI
-
-import prawcore
-import wget
-from praw import Reddit
-
-from tor.core.config import config
-from tor.core.initialize import configure_logging
-from tor.core.initialize import configure_redis
-from tor.core.initialize import configure_tor
-from tor.helpers.misc import _
-from tor.helpers.misc import explode_gracefully
-from tor.helpers.reddit_ids import clean_id
-from tor.strings.ocr import base_comment
-
 """
 General notes for implementation.
 
@@ -43,6 +23,28 @@ Bot:
 
     u_tor_post_id.reply(ocr_magic)
 """
+
+import logging
+import os
+import sys
+import time
+import urllib
+from tesserocr import PyTessBaseAPI
+
+import prawcore
+import wget
+from praw import Reddit
+
+from tor.core.config import config
+from tor.core.initialize import configure_logging
+from tor.core.initialize import configure_redis
+from tor.core.initialize import configure_tor
+from tor.helpers.misc import _
+from tor.helpers.misc import explode_gracefully
+from tor.helpers.reddit_ids import clean_id
+from tor.strings.ocr import base_comment
+
+config.ocr_delay = 10
 
 
 def process_image(local_file):
