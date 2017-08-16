@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 if [ $# -gt 0 ]; then
   action="$1"; shift
@@ -28,7 +28,7 @@ sudo_required_to_proceed() {
 
 install_apt_libs() {
   local choice
-  while sudo_required_to_proceed && read -p 'Continue (y/n)? ' choice; do
+  while sudo_required_to_proceed && read -rp 'Continue (y/n)? ' choice; do
     case "$choice" in
       y|Y )
         sudo apt-get install libtesseract-dev libleptonica-dev build-essential
