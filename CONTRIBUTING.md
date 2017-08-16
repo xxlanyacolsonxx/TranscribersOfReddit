@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/itsthejoker/TranscribersOfReddit.png?label=ready&title=Ready)](http://waffle.io/itsthejoker/TranscribersOfReddit)
+[![Stories in Ready](https://badge.waffle.io/TranscribersOfReddit/TranscribersOfReddit.png?label=ready&title=Ready)](http://waffle.io/TranscribersOfReddit/TranscribersOfReddit)
 
 # Contributing
 

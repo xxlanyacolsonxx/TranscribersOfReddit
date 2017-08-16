@@ -40,7 +40,7 @@ setup(
     version=__version__,
     description='',
     long_description=long_description(),
-    url='https://github.com/itsthejoker/transcribersofreddit',
+    url='https://github.com/TranscribersOfReddit/transcribersofreddit',
     author='Joe Kaufeld',
     author_email='joe.kaufeld@gmail.com',
     license='MIT',
