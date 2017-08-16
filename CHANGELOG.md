@@ -3,6 +3,10 @@
 We follow [Semantic Versioning](http://semver.org/) as a way of measuring stability of an update. This
 means we will never make a backwards-incompatible change within a major version of the project.
 
+## _[UNRELEASED]_
+
+- Misc. linting fixes
+
 ## v2.7.1 (2017-07-01)
 
 - Modify date logic and fix config loading for archivist bot
