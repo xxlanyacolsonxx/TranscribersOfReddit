@@ -26,13 +26,13 @@ be, though there are some external requirements.
 
 ```
 $ git clone https://github.com/TranscribersOfReddit/TranscribersOfReddit.git tor
-$ pip install tor/
+$ pip install --process-dependency-links tor/
 ```
 
 OR
 
 ```
-$ pip install 'git+https://github.com/TranscribersOfReddit/TranscribersOfReddit.git@master#egg=tor'
+$ pip install --process-dependency-links 'git+https://github.com/TranscribersOfReddit/TranscribersOfReddit.git@master#egg=tor'
 ```
 
 ## Moderator Bot (`/u/transcribersofreddit`)

@@ -72,11 +72,15 @@ setup(
     install_requires=[
         'praw==4.4.0',
         'redis<3.0.0',
+        'tor_core>=0.2.0,<0.3.0',
         'addict',
         'tesserocr',
         'wget',
         'sh',
         'bugsnag',
         'cython',  # WORKAROUND: 'tesserocr' only sometimes installs this dependency
+    ],
+    dependency_links=[
+        'git+https://github.com/TranscribersOfReddit/tor_core.git@master#egg=tor_core-0.2.0',
     ],
 )
