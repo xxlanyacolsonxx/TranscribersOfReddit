@@ -1,0 +1,10 @@
+praw==4.4.0
+redis<3.0.0
+addict
+tesserocr
+wget
+sh
+bugsnag
+pytest
+pytest-cov
+git+git://github.com/transcribersofreddit/tor_core.git
