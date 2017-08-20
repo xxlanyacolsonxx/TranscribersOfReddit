@@ -40,6 +40,13 @@ def run(config):
         time.sleep(60)
 
 
-if __name__ == '__main__':
+def main():
+    '''
+    Console scripts entry point for Moderator Bot
+    '''
     build_bot('bot', __version__, full_name='u/ToR')
     run_until_dead(run)
+
+
+if __name__ == '__main__':
+    main()
